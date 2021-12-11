@@ -9,7 +9,7 @@ const bodyParser=require("body-parser");
 
 app.use(bodyParser.urlencoded({extended:true}));
 
-mongoose.connect('mongodb+srv://gianna-admin:CoolScienceGirl123@cluster0.1ruwh.mongodb.net/FinalDatabase4',{useNewUrlParser:true},{useUnifedTopology:true});
+mongoose.connect('mongodb+srv://gianna-admin:CoolScienceGirl123@cluster0.1ruwh.mongodb.net/FinalDatabaseFall2021',{useNewUrlParser:true},{useUnifedTopology:true});
 
 app.use(express.static(__dirname + '/stylesheets'));
 
