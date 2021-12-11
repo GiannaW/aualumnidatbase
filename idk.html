@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alumni Survey</title>
+    <script src="https://kit.fontawesome.com/11ceb9e81d.js" crossorigin="anonymous">
+    
+    
+    
+    
+    </script>
+    
+    <link rel="stylesheet" href="RocioSurvey.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-text">
+            <h1 class="logoName"><a href="home-page.html">ALUMNI DATABASE</a></h1>
+            <img class="logo" src="logo.svg"/>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li><a href="#"><i class="fas fa-bars"></i></a></li>
+                <li><a href="home-page.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+            </ul>
+        </div>
+        <div class="main_content">
+            <h2>Welcome to the Alumni Survey</h2>
+            <h3>Here you can submit your survey information</h3>
+        </div>
+        <form class="container" method="post" action="/">
+        
+       
+        <div class="form">
+            <div class="input-fields">
+                <label>First Name</label>
+                <input name="Name", type="text" ,class="input">
+            </div>
+            <div class="input-fields">
+                <label>Last Name</label>
+                <input   type="text", class="input">
+            </div>
+            <div class="input-fields">
+                <label>Pronouns</label>
+                <div class="custom-selection">
+                    <select name="Pronouns" >
+                        <option  name="Pronouns", value="she/hers">She/Hers</option>
+                        <option  name="Pronouns", value="he/him">He/Him</option>
+                        <option name="Pronouns" , value="they/them">They/Them</option>
+                        <option  name="Pronouns", value="other">Other</option>
+                      </select>
+                </div>
+            </div>
+            <!-- <div class="input-fields">
+                <label>Pronouns</label>
+                <input type="text" class="input">
+            </div> -->
+            <div class="input-fields">
+                <label>Email Address</label>
+                <input name="Email" type="text" class="input">
+            </div>
+            <!-- <div class="input-fields">
+                <label>Phone Number</label>
+                <input type="text" class="input">
+            </div> -->
+            <div class="input-fields">
+                <label>College Major</label>
+                <input name="Major" type="text" class="input">
+            </div>
+            <!-- <div class="input-fields">
+                <label>Postgrad Plan</label>
+                <input name="Postgrad" type="text" class="input">
+            </div> -->
+            <div class="input-fields">
+                <label>Employment</label>
+                <div class="custom-selection">
+                    <select>
+                        <option value="">Select</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-fields">
+                <label>Employment</label>
+                <div class="custom-selection">
+                    <select name="Postgrad" >
+                        <option value="Employed">Employed</option>
+                        <option value="SelfE">Self-Employed</option>
+                        <option value="GradSchool">Graduate School</option>
+                        <option value="other">Unemployed</option>
+                      </select>
+                </div>
+            </div>
+           
+<!-- 
+            <div class="input-fields">
+                <label>Current Job Title</label>
+                <input type="text" class="input">
+            </div> -->
+            <div class="input-fields">
+                <label>What Sectors Are You Employed In?</label>
+                <div class="custom-selection">
+                    <label >What Sectors are you employed in:</label>
+                    <select name="TypeofJob" >
+                      <option value="Employed">Goverment</option>
+                      <option value="Self Employed">For Profit</option>
+                      <option value="GradSchool">Non-Profit</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-fields">
+                <label>What is important for success in CS/IT?</label>
+                <input type="text", name= "Question3", class="input">
+            </div>
+            <div class="input-fields">
+                <label>What personality traits do employers look for in students?</label>
+                <input type="text", name= "Question4", class="input">
+            </div>
+            <div class="input-fields">
+                <label>What are the ideal skill sets for a new hire?</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input-fields">
+                <label>What five tips would give students preparing to enter CS/IT? </label>
+                <input type="text" , name="Question6", class="input">
+            </div>
+            <div class="input-fields">
+                <label>Which classes at American University prepared you the most?</label>
+                <input type="text"         , name="Question7", class="input">
+            </div>
+            <div class="input-fields">
+                <label>What made these classes useful?</label>
+                <input type="text"      , name="Question8", class="input"'>
+            </div>
+            <div class="input-fields">
+                <label>What do you wish was offered at American University within the CS department?</label>
+                <input type="text"       , name="Question9", class="input"'>
+            </div>
+            <div class="input-fields-submit">
+                <input type="submit" value="Submit" class="btn">
+            </div>
+        </div>
+    </div>
+</form>
+</body>
