@@ -61,7 +61,7 @@ app.post("/",function(req,res){
 
     });
     newIntro.save();
-    res.redirect("/hjfk");
+    res.redirect("/");
 })
 
 app.listen(PORT, () => {
